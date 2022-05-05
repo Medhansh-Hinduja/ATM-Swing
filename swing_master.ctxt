@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=swing_master
+comment1.params=acc_num\ pin
+comment1.target=int\ validate(javax.swing.JTextField,\ javax.swing.JTextField)
+comment2.params=
+comment2.target=void\ loading()
+comment3.params=index
+comment3.target=void\ display_balance(int)
+comment4.params=index\ t_type\ amt
+comment4.target=void\ update_balance(int,\ char,\ int)
+comment5.params=index\ amt
+comment5.target=boolean\ check_balance(int,\ int)
+comment6.params=index
+comment6.target=int\ get_accnum(int)
+comment7.params=acc_num
+comment7.target=int\ get_index(int)
+comment8.params=
+comment8.target=void\ update_file()
+comment9.params=acc_num\ pin1\ pin2
+comment9.target=boolean\ change_pin(javax.swing.JTextField,\ javax.swing.JTextField,\ javax.swing.JTextField)
+comment9.text=public\ static\ void\ last3_transactions(int\ index)\ throws\ IOException\n\ \ \ \ {\n\ \ \ \ int\ cnt\=0;\n\ \ \ \ FileReader\ fr\ \=\ new\ FileReader("/Users/medhansh/Documents/Projects/Transactions.txt");\n\ \ \ \ BufferedReader\ bw\ \=\ new\ BufferedReader(fr);\n\ \ \ \ String\ s\="",s2\="";\n\ \ \ \ int\ c\=0,b\=1;\n\ \ \ \ while((s\=bw.readLine())\ \!\=\ null)\n\ \ \ \ {\n\ \ \ \ c\ \=\ s.indexOf(',',b);\n\ \ \ \ s2\ \=\ s.substring(0,3);\n\ \ \ \ if(String.valueOf(account_num[index]).equals(s2))\n\ \ \ \ {\n\ \ \ \ System.out.println(s);\n\ \ \ \ cnt++;\n\ \ \ \ }\n\ \ \ \ if(cnt\=\=3)\n\ \ \ \ break;\n\ \ \ \ }\n\ \ \ \ bw.close();\n\ \ \ \ fr.close();\n}
+numComments=10
