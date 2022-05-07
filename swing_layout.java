@@ -12,7 +12,7 @@ class swing_layout
         JPanel p = new JPanel(new GridLayout(0,1));
         JLabel L1 = new JLabel("Account Number");
         JLabel L2 = new JLabel("Pin");
-        JLabel L3 = new JLabel("Speedy Cash");
+        JLabel L3 = new JLabel("Quick Cash");
         L1.setFont(new Font("Verdana",10,25));
         L2.setFont(new Font("Verdana",10,25));
         L3.setFont(new Font("Verdana",15,30));
